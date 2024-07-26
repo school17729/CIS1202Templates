@@ -20,6 +20,7 @@ template<typename T> void test(T value) {
 }
 
 int main() {
+    // Tests 3 cases, each with a different numeric type
     test(7.0);
     test(5.0f);
     test(3);
